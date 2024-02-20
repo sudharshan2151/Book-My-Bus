@@ -11,6 +11,7 @@ The Book My Bus is a web application that allows users to manage buses, routes, 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Database Schema](#database-schema)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -59,6 +60,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+
 The application should now be running at http://localhost:8080.
 
 ## Usage
@@ -66,6 +68,9 @@ The application should now be running at http://localhost:8080.
 - Access the web application by navigating to http://localhost:8080 in your web browser.
 - Use the provided API endpoints to interact with the system programmatically (refer to API documentation below).
 
+## Database Schema
+ ![](https://github.com/sudharshan2151/Book-My-Bus/assets/123924081/3023d595-371b-4c88-a246-e873cc0a89b8)
+ 
 ## API Documentation
 
 API documentation provides detailed information about each API endpoint and how to use them. It can be accessed at `http://localhost:8080/swagger-ui.html` when the application is running.
